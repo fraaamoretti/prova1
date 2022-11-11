@@ -24,5 +24,15 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        string testo;
+        private void assegna(string t)
+        {
+            testo = t;
+        }
+        private void defaultvalore(string t)
+        {
+            testo = null;
+        }
     }
 }
